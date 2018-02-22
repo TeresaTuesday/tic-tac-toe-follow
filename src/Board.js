@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Square from './Square.js';
 
-class Board extends React.Component {
+export default class extends Component {
   renderSquare(i) {
     return (
       <Square
